@@ -27,8 +27,8 @@ public class Main {
            int seatsCount = 60;
            int otherCount = capacity-seatsCount; // стоячие места
 
-           int seatsUsed = 60;
-           int otherUsed = 41;
+           int seatsUsed = 21;
+           int otherUsed = 30;
            if(seatsUsed<seatsCount) {
                System.out.println("Есть еще " +(seatsCount-seatsUsed)+ " сидячих мест");
            }
